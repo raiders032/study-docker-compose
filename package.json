@@ -1,0 +1,24 @@
+{
+  "name": "study-docker-compose",
+  "version": "1.0.0",
+  "description": "도커 컴포즈 작성 연습",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raiders032/study-docker-compose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raiders032/study-docker-compose/issues"
+  },
+  "homepage": "https://github.com/raiders032/study-docker-compose#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
